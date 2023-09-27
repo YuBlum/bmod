@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "bmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "BMod",
+  "description": "A collection of various things.",
   "authors": [
-    "Turnip Labs"
+    "Blum"
   ],
   "contact": {
     "homepage": "",
     "sources": ""
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+      "blum.bmod.bmod"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "bmod.mixins.json"
   ],
 
   "depends": {
